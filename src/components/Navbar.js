@@ -1,9 +1,11 @@
 import React from 'react'
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div>navbar</div>
+    <nav className='w-full bg-gray-800 text-white flex h-16 items-center justify-between'>
+      Navbar
+    </nav>
   )
 }
 
-export default navbar
+export default Navbar;
