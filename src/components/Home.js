@@ -5,7 +5,7 @@ import { HiArrowNarrowRight } from "react-icons/hi"
 
 const Home = () => {
   return (
-    <div className="home flex-grow h-[calc(100vh-4rem)] flex overflow-hidden">
+    <div className="home flex-grow h-screen flex overflow-hidden">
 
 
       <aside className="left flex w-2/5 h-full">
@@ -15,7 +15,7 @@ const Home = () => {
 
       <aside className="right flex h-full overflow-hidden">
 
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-2/3'>
+        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-4/5'>
           <p className='text-pink-600'>Hi, my name is </p>
           <h1 className='text-4xl sm:text-6xl font-bold text-white'>Rahul</h1>
           <h2 className='text-3xl sm:text-5xl font-bold text-[#ffffffbd]'>
