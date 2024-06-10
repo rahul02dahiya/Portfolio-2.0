@@ -1,0 +1,16 @@
+.nav-items{
+    font-family: cursive;
+    position: relative;
+}
+
+.nav-items>li{
+    padding: 6px;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.nav-items>li:hover{
+    font-size: larger;
+    background: rgba(255, 255, 255, 0.214);
+}
+
