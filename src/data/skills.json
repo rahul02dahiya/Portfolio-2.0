@@ -1,0 +1,45 @@
+{
+    "skills":[
+        
+    {
+        "id":1,
+        "name":"HTML",
+        "image":"/mediaFiles/html.png"
+    },
+    {
+        "id":2,
+        "name":"CSS",
+        "image":"/mediaFiles/css.png"
+    },
+    {
+        "id":3,
+        "name":"JavaScript",
+        "image":"/mediaFiles/javascript.png"
+    },
+    {
+        "id":4,
+        "name":"ReactJS",
+        "image":"/mediaFiles/reactjs.png"
+    },
+    {
+        "id":5,
+        "name":"Node",
+        "image":"/mediaFiles/node.png"
+    },
+    {
+        "id":6,
+        "name":"Python",
+        "image":"/mediaFiles/python.png"
+    },
+    {
+        "id":7,
+        "name":"GitHub",
+        "image":"/mediaFiles/github.png"
+    },
+    {
+        "id":8,
+        "name":"Tailwind",
+        "image":"/mediaFiles/tailwind.png"
+    }
+]
+}

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div><div className="home flex-grow flex overflow-hidden h-full">Projects
+    <div><div id='projects' className="flex-grow flex overflow-hidden h-screen text-white">Projects
     </div>
     </div>
   )

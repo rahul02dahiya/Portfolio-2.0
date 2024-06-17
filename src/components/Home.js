@@ -1,15 +1,16 @@
 import React from 'react';
-import myPic from '../images/me.jpeg';
+import homePic from '../images/homePic.png';
 import { ReactTyped } from 'react-typed';
 import { HiArrowNarrowRight } from "react-icons/hi"
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div className="home flex-grow h-screen flex overflow-hidden">
+    <div id='home' className="flex-grow h-screen flex overflow-hidden">
 
 
       <aside className="left flex w-2/5 h-full">
-        <img src={myPic} alt="MyPic" className="w-full h-full object-cover object-center opacity-50" />
+        <img src={homePic} alt="homePic" className="w-full h-full object-cover object-center opacity-50" />
       </aside>
 
 
@@ -25,7 +26,9 @@ const Home = () => {
             I thrive on transforming ideas into tangible solutions through code
             & eager to learn more.</p>
           <div>
+            <Link to='#projects' >
             <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'> View Work <HiArrowNarrowRight className='ml-3' /> </button>
+            </Link>
           </div>
 
         </div>
