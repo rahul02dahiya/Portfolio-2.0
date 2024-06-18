@@ -23,7 +23,7 @@ const Skills = () => {
           
          {
           skillImgs.map(skill => (
-            <div key={skill.id} className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div key={skill.id} className='shadow-sm shadow-[#72b4ff57] hover:scale-110 hover:bg-[#9cc7ff24] p-2 rounded-xl duration-500'>
             <img className='w-20 mx-auto' src={skill.image} alt="HTML icon" />
             <p className='my-4'>{skill.name}</p>
           </div>

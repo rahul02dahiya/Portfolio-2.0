@@ -36,10 +36,11 @@ function App() {
 
       </div>
 
-      <Link to = '#home' ></Link>
-      <div className="goToTop w-5 h-5 bg-white">
-
+      <a href = '#home' >
+      <div className="goToTop w-10 h-10 bg-white rounded-full fixed bottom-10 right-10 flex justify-center text-cyan-800 text-xl items-center">
+      <i className="fa-solid fa-arrow-up"></i>
       </div>
+      </a>
     </Router>
   );
 }

@@ -9,8 +9,7 @@ const Projects = () => {
 
         {/* Page heading */}
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>My projects</p>
-          <p className='py-4'>Check some of my projects ; )</p>
+          <p className='py-4 text-pink-600'>Check some of my projects ; )</p>
         </div>
 
         {/* Container for cards */}
@@ -48,7 +47,7 @@ const Projects = () => {
 
           {/* 3rd card  */}
           <div style={{ backgroundImage: `url('/mediaFiles/blogspirit.png')` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto project-div'>
+            className='group container rounded-md flex justify-center items-center mx-auto project-div duration-500'>
 
             {/* Hower Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
