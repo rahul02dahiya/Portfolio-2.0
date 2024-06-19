@@ -43,7 +43,7 @@ code {
 }
 
 .project-div:hover {
-  background-image: linear-gradient(
+  background: linear-gradient(
       to right,
       rgba(255, 0, 200, 0.591),
       rgba(118, 207, 255, 0.474),

@@ -6,7 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import {
-  BrowserRouter as Router,Link,
+  BrowserRouter as Router,
   useLocation
 } from 'react-router-dom';
 
