@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
-    <div id='about' className="flex-grow flex overflow-hidden h-screen text-white">
+    <div id='about' className="flex-grow flex overflow-hidden sm:h-screen text-white">
 
       <aside className="right flex h-full overflow-hidden">
 

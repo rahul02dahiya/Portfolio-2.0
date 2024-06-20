@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div id="projects" className='w-full h-screen text-gray-300'>
+    <div id="projects" className='w-full sm:h-screen text-gray-300'>
 
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>

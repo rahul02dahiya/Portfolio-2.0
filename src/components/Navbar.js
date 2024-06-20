@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="logo">
         <i className="fa-solid fa-code text-3xl"></i>
       </div>
-      <ul className="flex items-center justify-between nav-items gap-x-10">
+      <ul className=" items-center hidden sm:flex justify-between nav-items gap-x-10">
         <li><Link to='#home' >Home</Link></li>
         <li><Link to='#about' >About</Link></li>
         <li><Link to='#skills' >Skills</Link></li>

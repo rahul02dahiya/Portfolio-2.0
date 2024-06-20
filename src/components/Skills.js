@@ -10,7 +10,7 @@ const Skills = () => {
   useEffect(()=>setSkillImgs(skillData.skills),[])
 
   return (
-<div id='skills' className="flex-grow flex overflow-hidden h-screen text-white">      {/* Container */}
+<div id='skills' className="flex-grow flex overflow-hidden sm:h-screen text-white">      {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full'>
 
         {/* Page heading */}

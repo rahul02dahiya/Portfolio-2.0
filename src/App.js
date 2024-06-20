@@ -37,7 +37,7 @@ function App() {
       </div>
 
       <a href = '#home' >
-      <div className="goToTop w-10 h-10 bg-white rounded-full fixed bottom-10 right-10 flex justify-center text-cyan-800 text-xl items-center">
+      <div className="goToTop w-10 h-10 bg-white rounded-full fixed sm:bottom-10 bottom-4 sm:right-10 right-4 flex justify-center text-cyan-800 text-xl items-center">
       <i className="fa-solid fa-arrow-up"></i>
       </div>
       </a>
